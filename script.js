@@ -1,15 +1,20 @@
 var tl = gsap.timeline();
-/*
-tl.from(".cycContainer", {
-    x: "-100vw",
-    
-    scrollTrigger: {
-        trigger: '.Main',
-        pin: true,
-        markers: true,
-        scrub: true
-    }
-})*/
+
+tl.from("#Life", {
+    y: "100",
+    opacity: "0",
+    delay: 1,
+    duration: 1 
+})
+
+tl.from(".cycle", {
+    y: "100",
+    opacity: "0",
+    delay: 0.5,
+    duration: 1 
+})
+
+
 
 
 
