@@ -67,13 +67,6 @@ body,html {
      
 }
 
-#Buy {
-    opacity: 0;
-}
-
-
-
-
 
 
 .cycle {
@@ -89,9 +82,41 @@ body,html {
     height: 100vh;
     display: flex;
     justify-content: center;
-    
+    color: antiquewhite;
     overflow: hidden;
     border-radius: 10px;
     min-width: 100vw;
+    text-align: center;
+}
+
+#Buy {
+    bottom: 0;
+    font-size: 15vw;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 12vw;
+    position: absolute;  
+    opacity: 10%;
+}
+
+.page2container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 70vh;
+}
+
+#cycle2 {
+    width: 25vw;
+    transform: rotateZ(0);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.page3 {
+    height: 100vh;
 }
 
