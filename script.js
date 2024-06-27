@@ -1,4 +1,5 @@
 var tl = gsap.timeline();
+/*
 tl.from(".cycContainer", {
     x: "-100vw",
     
@@ -8,7 +9,7 @@ tl.from(".cycContainer", {
         markers: true,
         scrub: true
     }
-})
+})*/
 
 
 
