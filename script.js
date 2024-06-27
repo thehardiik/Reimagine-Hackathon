@@ -58,7 +58,7 @@ gsap.to("#Buy" , {
         end: "top 30$",
         scrub: true,
         //pin: true,
-        markers: true
+        //markers: true
     }
 })
 
