@@ -1,5 +1,7 @@
 var tl = gsap.timeline();
 
+
+
 tl.from("#Life", {
     y: "100",
     opacity: "0",
@@ -141,5 +143,9 @@ gsap.from(".CycleName .six" , {
         scrub: true,
     }
 })
+
+
+
+
 
 
