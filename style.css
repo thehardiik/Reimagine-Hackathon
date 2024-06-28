@@ -56,6 +56,22 @@ body,html {
     position: relative;
 }
 
+.page1::before{
+    background: radial-gradient(
+        800px circle at 100px 100px,
+        rgba(202, 174, 174, 0.847),
+        transparent 40%
+    );
+    border-radius: inherit;
+    content: "";
+    height: 85vh;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
 .LifeIsCycle {
     top: 10%;
     font-size: 15vw;

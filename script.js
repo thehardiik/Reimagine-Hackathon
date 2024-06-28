@@ -1,5 +1,16 @@
 var tl = gsap.timeline();
 
+document.getElementsByClassName("page1").onmousemove = e => {
+    for(const card of document.getElementsByClassName("page1")) {
+      const rect = card.getBoundingClientRect(),
+            x = e.clientX - rect.left,
+            y = e.clientY - rect.top;
+  
+      card.style.setProperty("--mouse-x", `${x}px`);
+      card.style.setProperty("--mouse-y", `${y}px`);
+    };
+  }
+
 tl.from("#Life", {
     y: "100",
     opacity: "0",
@@ -61,6 +72,10 @@ gsap.to("#Buy" , {
         //markers: true
     }
 })
+
+
+
+
 
 
 
