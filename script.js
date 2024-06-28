@@ -55,7 +55,6 @@ gsap.to("#Buy" , {
         trigger: '.page2container',
         scroller: 'body',
         start: "top 15%",
-        end: "top 30$",
         scrub: true,
         //pin: true,
         //markers: true
@@ -65,6 +64,82 @@ gsap.to("#Buy" , {
 
 
 
+gsap.from(".CycleName .one" , {
+    x: '10%',
+    y: '40%',
+    rotation: -30,
+    scrollTrigger: {
+        trigger: '.CycleName',
+        scroller: 'body',
+        start: 'top 75%',
+        end: 'top 60%',
+        scrub: true,
+    }
+})
 
+gsap.from(".CycleName .two" , {
+    x: '5%',
+    y: '-40%',
+    rotation: -10,
+    scrollTrigger: {
+        trigger: '.CycleName',
+        scroller: 'body',
+        start: 'top 75%',
+        end: 'top 60%',
+        scrub: true,
+    }
+})
+
+gsap.from(".CycleName .three" , {
+    x: 10,
+    y: '30%',
+    rotation: 15,
+    scrollTrigger: {
+        trigger: '.CycleName',
+        scroller: 'body',
+        start: 'top 75%',
+        end: 'top 60%',
+        scrub: true,
+    }
+})
+
+gsap.from(".CycleName .four" , {
+    x: 10,
+    y: '-20%',
+    rotation: 30,
+    scrollTrigger: {
+        trigger: '.CycleName',
+        scroller: 'body',
+        start: 'top 75%',
+        end: 'top 60%',
+        scrub: true,
+    }
+})
+
+gsap.from(".CycleName .five" , {
+    x: 10,
+    y: '25%',
+    rotation: -20,
+    scrollTrigger: {
+        trigger: '.CycleName',
+        scroller: 'body',
+        start: 'top 75%',
+        end: 'top 60%',
+        scrub: true,
+    }
+})
+
+gsap.from(".CycleName .six" , {
+    x: 10,
+    y: '-22%',
+    rotation: -20,
+    scrollTrigger: {
+        trigger: '.CycleName',
+        scroller: 'body',
+        start: 'top 75%',
+        end: 'top 60%',
+        scrub: true,
+    }
+})
 
 
