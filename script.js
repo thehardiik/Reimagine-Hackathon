@@ -73,8 +73,8 @@ gsap.from(".CycleName .one" , {
     scrollTrigger: {
         trigger: '.CycleName',
         scroller: 'body',
-        start: 'top 75%',
-        end: 'top 60%',
+        start: 'top 80%',
+        end: 'top 65%',
         scrub: true,
     }
 })
@@ -86,8 +86,8 @@ gsap.from(".CycleName .two" , {
     scrollTrigger: {
         trigger: '.CycleName',
         scroller: 'body',
-        start: 'top 75%',
-        end: 'top 60%',
+        start: 'top 80%',
+        end: 'top 65%',
         scrub: true,
     }
 })
@@ -99,8 +99,8 @@ gsap.from(".CycleName .three" , {
     scrollTrigger: {
         trigger: '.CycleName',
         scroller: 'body',
-        start: 'top 75%',
-        end: 'top 60%',
+        start: 'top 80%',
+        end: 'top 65%',
         scrub: true,
     }
 })
@@ -112,8 +112,8 @@ gsap.from(".CycleName .four" , {
     scrollTrigger: {
         trigger: '.CycleName',
         scroller: 'body',
-        start: 'top 75%',
-        end: 'top 60%',
+        start: 'top 80%',
+        end: 'top 65%',
         scrub: true,
     }
 })
@@ -125,8 +125,8 @@ gsap.from(".CycleName .five" , {
     scrollTrigger: {
         trigger: '.CycleName',
         scroller: 'body',
-        start: 'top 75%',
-        end: 'top 60%',
+        start: 'top 80%',
+        end: 'top 65%',
         scrub: true,
     }
 })
@@ -138,8 +138,8 @@ gsap.from(".CycleName .six" , {
     scrollTrigger: {
         trigger: '.CycleName',
         scroller: 'body',
-        start: 'top 75%',
-        end: 'top 60%',
+        start: 'top 80%',
+        end: 'top 65%',
         scrub: true,
     }
 })

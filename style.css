@@ -165,3 +165,73 @@ span {
     display: inline-block;
 }
 
+.point {
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid;
+    z-index: 20;
+    border-color: #F4CE14;
+    
+    overflow: hidden;
+}
+
+.point:hover {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 15vw;
+    height: 7vh;
+    border: none;
+    color: #F4CE14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    backdrop-filter: blur(30px);
+    padding: 4px;
+    font-size: small;
+    
+}
+
+.spec {
+    z-index: 50;
+}
+
+#handle {
+    top: 20%;
+    right: 35%;
+}
+
+#handle:hover {
+    transform: translateX(50%) translateY(-50%);
+} 
+
+#seat {
+    top: 25%;
+    left: 35%;
+}
+
+#seat:hover {
+    transform: translateX(-50%) translateY(-50%);
+} 
+
+#tyre {
+    bottom: 30%;
+    right: 40%;
+}
+
+#tyre:hover {
+    transform: translateX(50%) translateY(50%);
+} 
+
+#gear {
+    bottom: 40%;
+    left: 37%;
+}
+
+#gear:hover {
+    transform: translateX(-50%) translateY(50%);
+} 
+
