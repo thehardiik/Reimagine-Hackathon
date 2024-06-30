@@ -19,44 +19,27 @@ tl.from("#cycle1", {
 gsap.from("#Buy" , {
     y: "200",
     opacity: "0",
-    scrollTrigger: {
-        trigger: '.page2',
-        scroller: 'body',
-        start: 'top 40%'
-    }
-})
-
-gsap.from("#cycle2" , {
-    y: "200",
-    opacity: "0",
     duration: 1,
     scrollTrigger: {
         trigger: '.page2',
         scroller: 'body',
-        start: 'top 40%',
-    }
-})
-
-gsap.to("#cycle2" , {
-    x: "300%",
-    duration: 3,
-    scrollTrigger: {
-        trigger: '.page2container',
-        scroller: 'body',
-        start: "top 15%",
-        scrub: true,
-        //pin: true,
-        //markers: false
+        start: 'top 50%',
     }
 })
 
 
-gsap.to("#Buy" , {
-    color: '#FF4191',
+
+
+
+
+
+
+gsap.to(".album" , {
+    y: "-200",
     scrollTrigger: {
-        trigger: '.page2container',
+        trigger: '.page2',
         scroller: 'body',
-        start: "top 15%",
+        start: "top 45%",
         scrub: true,
         //pin: true,
         //markers: true
