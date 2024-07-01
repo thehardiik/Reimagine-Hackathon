@@ -262,3 +262,77 @@ span {
     transform: translateX(-50%) translateY(50%);
 } 
 
+.page4 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+.page4  .cycle {
+    height: 100vh;
+    width: auto;
+    position: absolute;
+    top: -5%;
+    transform: rotateZ('-30deg');
+    
+}
+
+.page5{
+    height: 40vh;
+    width: 100vw;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeroTagline {
+    font-size: 2.5vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.HeroTagline .one{
+    background-color: aliceblue;
+    padding: 0px 6px 0px 6px;
+    
+}
+
+.HeroTagline .two{
+    background-color: aliceblue;
+    padding: 0px 6px 0px 6px;
+    border-radius: 10px;
+}
+
+.HeroTagline .three{
+    background-color: aliceblue;
+    padding: 0px 6px 0px 6px;
+}
+
+.HeroTagline .four{
+    background-color: aliceblue;
+    padding: 0px 6px 0px 6px;
+    border-radius: 10px;
+}
+
+.HeroTagline .one:hover{
+    border-radius: 10px;
+    
+}
+
+.HeroTagline .two:hover{
+    border-radius: 0px;
+    background-color: rgb(1, 145, 1);
+}
+
+.HeroTagline .three:hover{
+    border-radius: 10px;
+}
+
+.HeroTagline .four:hover{
+    border-radius: 0px;
+}
+
+

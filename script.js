@@ -49,7 +49,7 @@ gsap.to(".album" , {
 
 
 
-gsap.from(".CycleName .one" , {
+gsap.from(".page3 .CycleName .one" , {
     x: '10%',
     y: '40%',
     rotation: -30,
@@ -62,7 +62,7 @@ gsap.from(".CycleName .one" , {
     }
 })
 
-gsap.from(".CycleName .two" , {
+gsap.from(".page3 .CycleName .two" , {
     x: '5%',
     y: '-40%',
     rotation: -10,
@@ -75,7 +75,7 @@ gsap.from(".CycleName .two" , {
     }
 })
 
-gsap.from(".CycleName .three" , {
+gsap.from(".page3 .CycleName .three" , {
     x: 10,
     y: '30%',
     rotation: 15,
@@ -88,7 +88,7 @@ gsap.from(".CycleName .three" , {
     }
 })
 
-gsap.from(".CycleName .four" , {
+gsap.from(".page3 .CycleName .four" , {
     x: 10,
     y: '-20%',
     rotation: 30,
@@ -101,7 +101,7 @@ gsap.from(".CycleName .four" , {
     }
 })
 
-gsap.from(".CycleName .five" , {
+gsap.from(".page3 .CycleName .five" , {
     x: 10,
     y: '25%',
     rotation: -20,
@@ -114,12 +114,93 @@ gsap.from(".CycleName .five" , {
     }
 })
 
-gsap.from(".CycleName .six" , {
+gsap.from(".page3 .CycleName .six" , {
     x: 10,
     y: '-22%',
     rotation: -20,
     scrollTrigger: {
         trigger: '.CycleName',
+        scroller: 'body',
+        start: 'top 80%',
+        end: 'top 65%',
+        scrub: true,
+    }
+})
+
+// Page 4
+
+
+gsap.from(".page4 .CycleName .one" , {
+    x: '10%',
+    y: '40%',
+    rotation: -30,
+    scrollTrigger: {
+        trigger: '.page4 .CycleName',
+        scroller: 'body',
+        start: 'top 80%',
+        end: 'top 65%',
+        scrub: true,
+    }
+})
+
+gsap.from(".page4 .CycleName .two" , {
+    x: '5%',
+    y: '-40%',
+    rotation: -10,
+    scrollTrigger: {
+        trigger: '.page4 .CycleName',
+        scroller: 'body',
+        start: 'top 80%',
+        end: 'top 65%',
+        scrub: true,
+    }
+})
+
+gsap.from(".page4 .CycleName .three" , {
+    x: 10,
+    y: '30%',
+    rotation: 15,
+    scrollTrigger: {
+        trigger: '.page4 .CycleName',
+        scroller: 'body',
+        start: 'top 80%',
+        end: 'top 65%',
+        scrub: true,
+    }
+})
+
+gsap.from(".page4 .CycleName .four" , {
+    x: 10,
+    y: '-20%',
+    rotation: 30,
+    scrollTrigger: {
+        trigger: '.page4 .CycleName',
+        scroller: 'body',
+        start: 'top 80%',
+        end: 'top 65%',
+        scrub: true,
+    }
+})
+
+gsap.from(".page4 .CycleName .five" , {
+    x: 10,
+    y: '25%',
+    rotation: -20,
+    scrollTrigger: {
+        trigger: '.page4 .CycleName',
+        scroller: 'body',
+        start: 'top 80%',
+        end: 'top 65%',
+        scrub: true,
+    }
+})
+
+gsap.from(".page4 .CycleName .six" , {
+    x: 10,
+    y: '-22%',
+    rotation: -20,
+    scrollTrigger: {
+        trigger: '.page4 .CycleName',
         scroller: 'body',
         start: 'top 80%',
         end: 'top 65%',
